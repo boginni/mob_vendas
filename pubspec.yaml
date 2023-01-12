@@ -1,0 +1,64 @@
+name: mob_vendas
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl:
+  #  Icons & Fonts
+  ant_icons: ^2.0.0-nullsafety.0
+  ionicons: ^0.1.2
+  cupertino_icons: ^1.0.2
+  google_fonts: 3.0.1
+  font_awesome_flutter:
+  #  Navegacao
+  #  path:
+  #  path_provider:
+  share:
+  #  Internet
+  http:
+  web_socket_channel:
+  #  Utility
+  provider:
+  platform_device_id: ^1.0.1
+  mask_text_input_formatter: ^2.1.0
+  flutter_layout_grid: ^2.0.1
+  cached_network_image: ^3.2.3
+  image_picker:
+  permission_handler:
+  simple_gradient_text:
+  # Widgets
+
+  badges: ^2.0.3
+  expandable: ^5.0.1
+  #  Sync Fusion
+  syncfusion_flutter_core: 20.1.55
+  syncfusion_flutter_charts: 20.1.55
+  #  syncfusion_flutter_datagrid: ^20.2.39
+  #  percent_indicator: ^3.3.0
+
+  # GOOGLE CLOUD
+  firebase_core: ^2.4.0
+  firebase_auth: ^4.2.1
+  cloud_firestore: ^4.3.1
+  firebase_storage:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
