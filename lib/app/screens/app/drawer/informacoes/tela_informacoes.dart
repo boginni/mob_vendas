@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mob_vendas/app/application.dart';
+import 'package:url_launcher/url_launcher.dart' as url_launcher;
 
 class TelaInformacoes extends StatefulWidget {
   const TelaInformacoes({Key? key}) : super(key: key);
@@ -38,9 +39,14 @@ class _TelaInformacoesState extends State<TelaInformacoes> {
               title: Text("Terms of Service"),
             ),
             const Divider(),
-            const ListTile(
-              leading: Icon(Icons.file_copy_outlined),
-              title: Text("Open Source and Licences"),
+            InkWell(
+              onTap: (){
+                url_launcher.launchUrl(Uri.parse("https://github.com/boginni/mob_vendas"));
+              },
+              child: const ListTile(
+                leading: Icon(Icons.file_copy_outlined),
+                title: Text("Open Source and Licences"),
+              ),
             ),
           ],
         ),

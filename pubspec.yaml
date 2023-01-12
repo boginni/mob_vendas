@@ -30,14 +30,14 @@ dependencies:
   #  Utility
   provider:
   platform_device_id: ^1.0.1
+  image_picker:
+  permission_handler:
+  url_launcher:
+  # Widgets
   mask_text_input_formatter: ^2.1.0
   flutter_layout_grid: ^2.0.1
   cached_network_image: ^3.2.3
-  image_picker:
-  permission_handler:
   simple_gradient_text:
-  # Widgets
-
   badges: ^2.0.3
   expandable: ^5.0.1
   #  Sync Fusion
